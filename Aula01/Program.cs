@@ -58,7 +58,7 @@ if (tentativas == PassarGarantido)
     passou = true;
 }
 
-// Só mostra a mensagem de PASSOU se não acabou por falta de crons/memórias
+// Mensagem final caso tenha passado
 if (passou)
 {
     long totalGasto = (totalEstilhacosUsados * ValorEstilhaco) + (totalCronsUsadas * ValorCron);
